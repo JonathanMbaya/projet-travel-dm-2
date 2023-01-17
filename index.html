@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="voyage,avion,vol,moins,cher,réservation,low-cost,gratuit,aéroport,paris,Charles,DeGaulle,CDG">
+    <meta name="description" content="Site de voyage et de réservation de vol">
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    
+    
+    <title>Travel</title>
+
+</head>
+
+
+<body>
+    <!-- Part 1 : Header-->
+
+    <header>
+        <!-- Titre de la page -->
+        <div class="container block-title" role="region" aria-labelledby="title">
+            <h1 id="title">Travel the world</h1>
+        </div>
+
+
+        <!-- Block de réservation -->
+
+        <div class="block-reservation" role="region" aria-labelledby="navigation">
+
+            <ul id="navigation">
+                <li class="active">Flight</li>
+                <li>Hotel</li>
+                <li>Rental</li>
+            </ul>
+
+            <div class="form" >
+                <h2>Travel the world with us</h2>
+
+                <form class="form-reservation">
+
+                    <div class="input-reservation">
+
+                        <div class="input-something">
+                            <label for="from">From</label>
+                            <input type="date" name="from"  id="from">
+                        </div>
+    
+                        <div class="input-something">
+                            <label for="to">To</label>
+                            <input type="date" name="to"  id="to">
+                        </div>
+
+                    </div>
+
+
+                    <input type="submit" value="Search and find dates" name="Search and find dates" id="btn-search">
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+    </header>
+
+
+    <main>
+
+        <!-- Part 2 : Good offers -->
+
+        <section>
+
+            <h2>Good Offers Right Now</h2>
+
+            <p>Up to 50% discount.</p>
+
+            <div class="gallery-1" role="group" aria-labelledby="group">
+
+                <ul id="group">
+
+                    <li>
+                        <figure>
+
+                            <img class="img-1" src="asset/cinqueterre.jpg" alt="paysage-de-cinqueterre">
+                            
+                            <figcaption>
+                                <h2>Cinqueterre</h2>
+                            </figcaption>
+
+                        </figure>
+                    </li>
+
+                    <li>
+                        <figure>
+
+                            <img class="img-2" src="asset/newyork2.jpg" alt="la-statue-de-la-liberté">
+
+                            <figcaption>
+                                <h2>New York</h2>
+                            </figcaption>
+
+                        </figure>
+                    </li>
+
+                    <li>
+                        <figure>
+
+                            <img class="img-2" src="asset/sanfran.jpg" alt="le-pont-de-san-francisco">
+
+                            <figcaption>
+                                <h2>San Francisco</h2>
+                            </figcaption>
+
+                        </figure>
+                    </li>
+
+                    <li>
+                        <figure>
+
+                            <img class="img-2" src="asset/pisa.jpg" alt="la-tour-de-piz">
+
+                            <figcaption>
+                                <h2>Rome</h2>
+                            </figcaption>
+
+                        </figure>
+                    </li>
+
+                    <li>
+                        <figure>
+
+                            <img class="img-2" src="asset/paris.jpg" alt="la-tour-eiffel">
+
+                            <figcaption>
+                                <h2>Paris</h2>
+                            </figcaption>
+
+                        </figure>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Part 3 : Explore Nature -->
+        <section>
+            <h2>Explore Nature</h2>
+            <p>Travel with us and see nature at its finest.</p>
+
+            <figure class="block-explore">
+
+                <img src="asset/mountains2.jpg" alt="paysage-de-montage">
+
+                <figcaption>
+
+                    <h3>Mountains, Austria</h3>
+                    <p>Open-way from 39</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae <br> justo.</p>
+                    <button>Buy tickets</button>
+
+                </figcaption>
+
+
+            </figure>
+
+            <figure class="block-explore">
+
+                <figcaption>
+
+                    <img src="asset/ocean2.jpg" alt="vue-sur-un-ocean-bleu">
+                    <h3>Mountains, Austria</h3>
+                    <p>Open-way from 39</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae <br> justo.</p>
+                    <button>Buy tickets</button>
+
+                </figcaption>
+            </figure>
+
+        </section>
+
+
+        <!-- Part 4 : Newsletter -->
+
+        <div>
+            <h2> Get the best offers first</h2>
+            <p>Join our newsletter</p>
+
+            <form>
+                <div>
+                    <label for="E-mail">Email</label>
+                    <input type="email" name="email" id="E-mail">
+                </div>
+
+                <input type="submit" id="btn-submit" value="Subscribe">
+            </form>
+
+        </div>
+
+
+
+    </main>
+
+
+    <footer>
+        <div>
+            <h2>Contact</h2>
+            <p>Let us book your next trip !</p>
+    
+            <ul>
+                <li>Chicago, US</li>
+                <li>Phone : +00 151515</li>
+                <li>Email: contact@gmail.com</li>
+            </ul>
+    
+            <form>
+                <input type="text" name="firstname" placeholder="First Name">
+                <input type="email" name="email" placeholder="E-mail">
+                <input type="text" name="message" placeholder="Your message...">
+                <input type="submit" value="SEND MESSAGE" name="send" id="btn-send">
+            </form>
+
+        </div>
+
+
+        <div>
+
+            <h3>Find Us On</h3>
+
+            <div>
+                <img src="asset/facebook.svg" alt="">
+                <img src="asset/instagram.svg" alt="">
+                <img src="asset/linkedin.svg" alt="">
+                <img src="asset/twitter.svg" alt="">
+
+                <p>Powered by GiusMili - 2021</p>
+            </div>
+
+        </div>
+    </footer>
+    
+
+</body>
+</html>
